@@ -22,4 +22,9 @@
     margin-left: 2.4rem;
     object-fit: contain;
     cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.logo:hover {
+    transform: scale(1.2); /* Scale the logo to 1.2 times its size on hover */
 }
