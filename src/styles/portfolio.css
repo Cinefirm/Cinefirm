@@ -34,18 +34,14 @@
     row-gap: 0.8rem;
     width: 100%;
     max-width: 100vw;
-    height: calc(100% + 2rem); /* Adjust height to create top and bottom bleeding */
-    max-height: calc(100vh + 2rem);
-    margin-top: 1rem; /* Adjust margin to create equal top and bottom bleeding */
-    margin-bottom: 1rem;
+    height: 100%; 
 }
 
 .video-card, .video-card2 {
     border-radius: 1.1rem;
-    height: 16.2rem;
-    margin-left: 1.1rem;
-    margin-right: 1.1rem;
-    width: 28.2rem;
+    margin: 0 0.4rem;
+    width: calc(100vw / 3 - 1rem); /* Adjust the width dynamically based on the viewport width */
+    height: calc(100vh / 3 - 1rem); /* Adjust the height dynamically based on the viewport height */
     flex: 0 0 auto; /* Ensure the card doesn't shrink or grow */
     background-color: aliceblue;
     background-repeat: no-repeat;
@@ -145,4 +141,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Media Queries for responsiveness */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .video-card, .video-card2 {
+        width: calc(100vw / 3 - 1rem); /* Adjust the width dynamically based on the viewport width */
+        height: calc(100vh / 3 - 1rem); /* Adjust the height dynamically based on the viewport height */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .video-card, .video-card2 {
+        width: calc(100vw / 3 - 1rem); /* Adjust the width dynamically based on the viewport width */
+        height: calc(100vh / 3 - 1rem); /* Adjust the height dynamically based on the viewport height */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .video-card, .video-card2 {
+        width: calc(100vw / 3 - 1rem); /* Adjust the width dynamically based on the viewport width */
+        height: calc(100vh / 3 - 1rem); /* Adjust the height dynamically based on the viewport height */
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+    .video-card, .video-card2 {
+        width: calc(100vw / 3 - 1rem); /* Adjust the width dynamically based on the viewport width */
+        height: calc(100vh / 3 - 1rem); /* Adjust the height dynamically based on the viewport height */
+    }
 }

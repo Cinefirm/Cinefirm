@@ -15,6 +15,7 @@ const Portfolio = () => {
        <Header></Header>
        <SideNav></SideNav>
        <Footer></Footer>
+       
        <div className='container'>
           <div className='video-grid'>
              <div className='video-layout1'>
@@ -44,7 +45,8 @@ const Portfolio = () => {
              </div>
           </div>
        </div>
-    </div>
+      
+      </div>
   );
 };
 
