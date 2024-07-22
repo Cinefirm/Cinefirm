@@ -18,7 +18,7 @@ const Portfolio = () => {
        <div className='container'>
           <div className='video-grid'>
              <div className='video-layout1'>
-             <Marquee pauseOnClick>
+             <Marquee pauseOnClick autoFill>
                 <div id='card1' className='video-card'></div>
                 <div id='card2' className='video-card'></div>
                 <div id='card3' className='video-card'></div>
@@ -27,7 +27,7 @@ const Portfolio = () => {
             </Marquee>
              </div>
              <div className='video-layout2'>
-             <Marquee direction='right' pauseOnClick>
+             <Marquee direction='right' pauseOnClick autoFill>
                <div  id='card6' className='video-card2'></div>
                 <div  id='card7' className='video-card2'></div>
                 <div  id='card8' className='video-card2'></div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
             </Marquee>
              </div>
              <div className='video-layout3'>
-             <Marquee pauseOnClick>
+             <Marquee pauseOnClick autoFill>
                <div id='card10' className='video-card'></div>
                 <div id='card11' className='video-card'></div>
                 <div id='card12' className='video-card'></div>

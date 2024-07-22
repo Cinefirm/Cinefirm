@@ -6,6 +6,7 @@
     bottom: 0;
     position: fixed;
     z-index: 100;
+    white-space: nowrap;
     height: auto; 
     margin-left: 2.4rem;
     display: flex;
@@ -58,7 +59,7 @@
   @media (min-width: 1600px) and (max-width: 1919.98px) {
     .footer
     {
-        width: clamp(24vw, 30vw, 32vw);
+        width: clamp(18vw, 24vw, 24vw);
     }
   }
   
@@ -66,7 +67,7 @@
   @media (min-width: 1920px) and (max-width: 3839.98px) {
     .footer
     {
-        width: clamp(24vw, 30vw, 32vw);
+        width: clamp(18vw, 22vw, 24vw);
     }
   }
   
@@ -74,7 +75,7 @@
   @media (min-width: 3840px) {
     .footer
     {
-        width: clamp(24vw, 30vw, 32vw);
+        width: clamp(18vw, 24vw, 24vw);
     }
   }
   

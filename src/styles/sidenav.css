@@ -1,6 +1,6 @@
 .SideNav
 {
-    height: 82vh;
+    height: clamp(72vh, 82vh, 82vw);
     width: auto;
     display: flex;
     position: absolute;
@@ -59,3 +59,72 @@
 .gg--facebook:hover {
     transform: scale(1.2); /* Scale the element to 1.2 times its original size */
 }
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .SideNav
+    {
+       display: none;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .SideNav
+    {
+       display: none;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .SideNav
+    {
+       display: none;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .SideNav
+    {
+        height: clamp(72vh, 80vh, 82vw);
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1599.98px) {
+    .SideNav
+    {
+        height: clamp(72vh, 80vh, 82vw);
+    }
+  }
+  
+  /* Extra extra large devices (very large desktops, 1600px and up) */
+  @media (min-width: 1600px) and (max-width: 1919.98px) {
+    .SideNav
+    {
+        height: clamp(72vh, 80vh, 82vw);
+    }
+  }
+  
+  /* Ultra high resolution devices (4K displays, 1920px and up) */
+  @media (min-width: 1920px) and (max-width: 3839.98px) {
+    .SideNav
+    {
+        height: clamp(72vh, 80vh, 82vw);
+    }
+  }
+  
+  /* Ultra high resolution devices (5K displays, 3840px and up) */
+  @media (min-width: 3840px) {
+    .SideNav
+    {
+        height: clamp(72vh, 80vh, 82vw);
+    }
+  }
+    
+
+
+
