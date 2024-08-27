@@ -11,16 +11,7 @@ import Slider2 from './res/slider/2.webp';
 import Slider3 from './res/slider/3.webp';
 import Slider4 from './res/slider/4.webp';
 import Slider5 from './res/slider/5.webp';
-// vertical Slider
-import Profile1 from './res/profile/profile1.webp';
-import Profile2 from './res/profile/profile2.webp';
-import Profile3 from './res/profile/profile3.webp';
-import Profile4 from './res/profile/profile4.webp';
-import Profile5 from './res/profile/profile5.webp';
-import Profile6 from './res/profile/profile6.webp';
-import Profile7 from './res/profile/profile7.webp';
-import Profile8 from './res/profile/profile8.webp';
-import Profile9 from './res/profile/profile9.webp';
+
 // Portfolio
 import Portfolio1 from './res/portfolio/FashionPhotography.webp';
 import Portfolio2 from './res/portfolio/frenzy.webp';
@@ -31,6 +22,10 @@ import Portfolio6 from './res/portfolio/biryani.webp';
 import Portfolio7 from './res/portfolio/lovestory.webp';
 import Portfolio8 from './res/portfolio/shezwan.webp';
 import Portfolio9 from './res/portfolio/fashionphotography2.webp';
+
+// SoftBox
+import SoftBox from './res/Softbox.webp';
+
 
 
 // Function to preload images
@@ -68,15 +63,6 @@ function App() {
       Slider3,
       Slider4,
       Slider5,
-      Profile1,
-      Profile2,
-      Profile3,
-      Profile4,
-      Profile5,
-      Profile6,
-      Profile7,
-      Profile8,
-      Profile9,
       Portfolio1,
       Portfolio2,
       Portfolio3,
@@ -86,6 +72,7 @@ function App() {
       Portfolio7,
       Portfolio8,
       Portfolio9,
+      SoftBox
       // Add more image URLs here if needed
     ])
       .then(() => {

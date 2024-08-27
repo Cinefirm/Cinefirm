@@ -10,7 +10,7 @@ const Header = () => {
   // Determine which logo to use based on the current path
   const getLogo = () => {
     // Check if the current path matches '/contact'
-    if (location.pathname === '/contact') {
+    if (location.pathname === '/contact' || location.pathname === '/about') {
       return darklogo;
     } else {
       return whitelogo;
