@@ -24,9 +24,6 @@ import Slider11 from './res/slider/11.webp';
 import Slider12 from './res/slider/12.webp';
 import Slider13 from './res/slider/13.webp';
 import Slider14 from './res/slider/14.webp';
-import Slider15 from './res/slider/15.webp';
-
-
 
 // Portfolio
 import Portfolio1 from './res/portfolio/FashionPhotography.webp';
@@ -79,16 +76,15 @@ function App() {
       Slider3,
       Slider4,
       Slider5,
-      Slider11,
       Slider6,
       Slider7,
       Slider8,
       Slider9,
       Slider10,
+      Slider11,
       Slider12,
       Slider13,
       Slider14,
-      Slider15,
       Portfolio1,
       Portfolio2,
       Portfolio3,
