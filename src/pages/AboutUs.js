@@ -5,7 +5,6 @@ import DarkSideNav from '../components/darksidenav';
 import DarkFooter from '../components/darkfooter';
 import transition from '../transition';
 import '../styles/aboutus.css';
-import Marquee from 'react-fast-marquee';
 import usePreventActions from '../hooks/usePreventActions';
 
 const AboutUs = () => {
