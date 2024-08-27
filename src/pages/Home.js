@@ -9,9 +9,20 @@ import slide2 from '../res/slider/2.webp';
 import slide3 from '../res/slider/3.webp';
 import slide4 from '../res/slider/4.webp';
 import slide5 from '../res/slider/5.webp';
+import slide6 from '../res/slider/6.webp';
+import slide7 from '../res/slider/7.webp';
+import slide8 from '../res/slider/8.webp';
+import slide9 from '../res/slider/9.webp';
+import slide10 from '../res/slider/10.webp';
+import slide11 from '../res/slider/11.webp';
+import slide12 from '../res/slider/12.webp';
+import slide13 from '../res/slider/13.webp';
+import slide14 from '../res/slider/14.webp';
+import slide15 from '../res/slider/15.webp';
+
 import usePreventActions from '../hooks/usePreventActions';
 
-const slides = [slide1, slide2, slide3, slide4, slide5];
+const slides = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide10 ,slide11, slide12, slide13, slide14, slide15];
 
 const slideContents = [
   {
@@ -39,6 +50,97 @@ const slideContents = [
     desc: 'hands down best pizza in New York City, Brooklyn and the Bronx.',
     type: 'Food Photography'
   },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+
+  {
+    client: 'Lorem ipsum dolor sit amet',
+    desc: 'consectetur adipiscing elit. Vivamus ac odio sit amet quam tristique tempor ac eget ex. Curabitur elementum',
+    type: 'purus nec faucibus vulputate'
+  },
+  
 ];
 
 const Home = () => {

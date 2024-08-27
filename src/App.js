@@ -5,12 +5,28 @@ import SplashScreen from './components/SplashScreen';
 import BackgroundImage from './res/background.webp';
 import FaviconDark from './res/BLACK_CINEFIRM_.png';
 import FaviconLight from './res/CINEFIRM_WHITE.png';
+
 // Main Slider
 import Slider1 from './res/slider/1.webp';
 import Slider2 from './res/slider/2.webp';
 import Slider3 from './res/slider/3.webp';
 import Slider4 from './res/slider/4.webp';
 import Slider5 from './res/slider/5.webp';
+
+
+import Slider6 from './res/slider/6.webp';
+import Slider7 from './res/slider/7.webp';
+import Slider8 from './res/slider/8.webp';
+import Slider9 from './res/slider/9.webp';
+import Slider10 from './res/slider/10.webp';
+
+import Slider11 from './res/slider/11.webp';
+import Slider12 from './res/slider/12.webp';
+import Slider13 from './res/slider/13.webp';
+import Slider14 from './res/slider/14.webp';
+import Slider15 from './res/slider/15.webp';
+
+
 
 // Portfolio
 import Portfolio1 from './res/portfolio/FashionPhotography.webp';
@@ -63,6 +79,16 @@ function App() {
       Slider3,
       Slider4,
       Slider5,
+      Slider11,
+      Slider6,
+      Slider7,
+      Slider8,
+      Slider9,
+      Slider10,
+      Slider12,
+      Slider13,
+      Slider14,
+      Slider15,
       Portfolio1,
       Portfolio2,
       Portfolio3,
